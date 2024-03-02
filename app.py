@@ -21,4 +21,4 @@ def check():
     return jsonify({"status": "OK"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, port=2021)
+    app.run(debug=True, port=8081)
